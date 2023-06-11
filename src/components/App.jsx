@@ -11,7 +11,6 @@ export class App extends React.Component {
     neutral: 0,
     bad: 0,
   }
-
   createFeedbackOptions = option => {
     this.setState(state => ({
       [option]: state[option] + 1,}));
